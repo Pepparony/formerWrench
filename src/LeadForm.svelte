@@ -86,7 +86,7 @@
     errors.general = '';
 
     try {
-      const response = await axios.post('https://api-holden-gerlachs-projects.vercel.app/', {
+      const response = await axios.post('/api/submit-lead', {
         name: name.trim(),
         businessName: businessName.trim(),
         email: email.trim()
