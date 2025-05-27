@@ -76,7 +76,7 @@ async function sendEmails(name, businessName, email) {
 
   // Send notification
   await transporter.sendMail({
-    to: "holdengerlach23@gmail.com",
+    to: "anthonyphaint@gmail.com",
     subject: '🔧 NEW LEAD - Former Wrench Marketing',
     html: `
       <h2>New Lead!</h2>
