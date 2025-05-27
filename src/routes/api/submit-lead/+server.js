@@ -1,46 +1,43 @@
 import { json } from '@sveltejs/kit';
 
 export async function POST({ request }) {
+  console.log('=== API ROUTE HIT ===');
+  
   try {
-    console.log('API route hit!');
-    
     const body = await request.json();
+    console.log('Request body received:', JSON.stringify(body, null, 2));
+    
     const { name, businessName, email } = body;
+    console.log('Extracted data:', { name, businessName, email });
     
     // Validation
     if (!name || !businessName || !email) {
+      console.log('Validation failed - missing fields');
       return json({ 
         error: 'Missing required fields',
         message: 'Name, business name, and email are required' 
       }, { status: 400 });
     }
 
-    console.log(`Processing lead: ${name}, ${businessName}, ${email}`);
+    console.log('Validation passed');
+    console.log('About to call sendEmails function...');
     
-    // Try to send emails with detailed debugging
-    try {
-      console.log('About to attempt sending emails...');
-      await sendEmails(name, businessName, email);
-      console.log('Email sending completed successfully');
-    } catch (emailError) {
-      console.error('Email sending failed:', emailError);
-      console.error('Email error details:', emailError.message);
-      
-      // Still return success so form works, but log the email failure
-      return json({ 
-        message: 'Form submitted successfully, but email delivery failed',
-        success: true,
-        emailError: emailError.message
-      });
-    }
+    // Call email function
+    const emailResult = await sendEmails(name, businessName, email);
+    console.log('sendEmails returned:', emailResult);
     
+    console.log('=== API ROUTE COMPLETED SUCCESSFULLY ===');
     return json({ 
-      message: 'Lead processed successfully with emails sent!',
+      message: 'Lead processed successfully!',
       success: true 
     });
     
   } catch (error) {
-    console.error('API Error:', error);
+    console.error('=== API ROUTE ERROR ===');
+    console.error('Error details:', error);
+    console.error('Error message:', error.message);
+    console.error('Error stack:', error.stack);
+    
     return json({ 
       message: 'Error processing lead submission',
       error: error.toString()
@@ -49,76 +46,55 @@ export async function POST({ request }) {
 }
 
 async function sendEmails(name, businessName, email) {
-  console.log('Starting email sending process...');
+  console.log('=== ENTERING sendEmails FUNCTION ===');
+  console.log('Parameters:', { name, businessName, email });
   
-  // Import nodemailer
-  const nodemailer = await import('nodemailer');
-  console.log('Nodemailer imported successfully');
-  
-  // Create transporter
-  console.log('Creating email transporter...');
-  const transporter = nodemailer.default.createTransporter({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true,
-    auth: {
-      user: 'holdengerlach23@gmail.com',
-      pass: 'awftcdalqifjxbkn'
-    }
-  });
-  
-  console.log('Transporter created, testing connection...');
-  
-  // Test the connection
   try {
+    console.log('Step 1: Importing nodemailer...');
+    const nodemailer = await import('nodemailer');
+    console.log('Step 1: Nodemailer imported successfully');
+    
+    console.log('Step 2: Creating transporter...');
+    const transporter = nodemailer.default.createTransporter({
+      service: 'gmail',
+      auth: {
+        user: 'holdengerlach23@gmail.com',
+        pass: 'awftcdalqifjxbkn'
+      }
+    });
+    console.log('Step 2: Transporter created');
+    
+    console.log('Step 3: Testing SMTP connection...');
     await transporter.verify();
-    console.log('SMTP connection verified successfully');
-  } catch (verifyError) {
-    console.error('SMTP connection failed:', verifyError);
-    throw new Error(`SMTP connection failed: ${verifyError.message}`);
-  }
-
-  // Send welcome email to lead
-  console.log(`Sending welcome email to: ${email}`);
-  try {
+    console.log('Step 3: SMTP connection verified successfully');
+    
+    console.log('Step 4: Sending welcome email...');
     const welcomeResult = await transporter.sendMail({
       from: 'holdengerlach23@gmail.com',
       to: email,
-      subject: '🔧 Your free mobile mechanic training is ready!',
-      html: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h1>Thanks ${name}!</h1>
-          <p>Here's your training video: <a href="https://youtu.be/dQw4w9WgXcQ">Watch Now</a></p>
-          <p>Best, Holden<br>Former Wrench Marketing</p>
-        </div>
-      `
+      subject: 'Test Email - Former Wrench',
+      html: `<h1>Test Email</h1><p>Hello ${name}!</p>`
     });
-    console.log('Welcome email sent successfully:', welcomeResult.messageId);
-  } catch (welcomeError) {
-    console.error('Welcome email failed:', welcomeError);
-    throw welcomeError;
-  }
-
-  // Send notification email to you
-  console.log('Sending notification email to holdengerlach23@gmail.com');
-  try {
+    console.log('Step 4: Welcome email sent, Message ID:', welcomeResult.messageId);
+    
+    console.log('Step 5: Sending notification email...');
     const notificationResult = await transporter.sendMail({
       from: 'holdengerlach23@gmail.com',
       to: 'holdengerlach23@gmail.com',
-      subject: '🔧 NEW LEAD - Former Wrench Marketing',
-      html: `
-        <h2>New Lead!</h2>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Business:</strong> ${businessName}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Submitted:</strong> ${new Date().toLocaleString()}</p>
-      `
+      subject: 'NEW LEAD TEST',
+      html: `<h2>Test Lead</h2><p>Name: ${name}<br>Business: ${businessName}<br>Email: ${email}</p>`
     });
-    console.log('Notification email sent successfully:', notificationResult.messageId);
-  } catch (notificationError) {
-    console.error('Notification email failed:', notificationError);
-    throw notificationError;
+    console.log('Step 5: Notification email sent, Message ID:', notificationResult.messageId);
+    
+    console.log('=== sendEmails COMPLETED SUCCESSFULLY ===');
+    return { success: true, welcomeId: welcomeResult.messageId, notificationId: notificationResult.messageId };
+    
+  } catch (emailError) {
+    console.error('=== EMAIL ERROR ===');
+    console.error('Email error details:', emailError);
+    console.error('Email error message:', emailError.message);
+    console.error('Email error code:', emailError.code);
+    console.error('Email error stack:', emailError.stack);
+    throw emailError;
   }
-  
-  console.log('All emails sent successfully!');
 }
