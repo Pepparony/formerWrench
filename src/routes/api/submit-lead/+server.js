@@ -40,7 +40,7 @@ async function sendSimpleEmail(name, businessName, email) {
   console.log('Nodemailer imported');
   
   // Create transporter
-  const transporter = nodemailer.default.createTransporter({
+  const transporter = nodemailer.default.createTransport({
     service: 'gmail',
     auth: {
       user: 'holdengerlach23@gmail.com',
