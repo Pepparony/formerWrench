@@ -1,6 +1,6 @@
 <!-- Optimized FormerWrench Landing Page -->
 <script>
-  import LeadForm from '../LeadForm.svelte'; 
+  import LeadForm from '../../LeadForm.svelte'; 
 </script>
 
 <svelte:head>
@@ -8,9 +8,6 @@
     <meta name="description" content="Former mobile mechanic reveals 4 simple strategies that took him from 3 jobs/week to fully booked. Free training video shows you exactly how.">
 </svelte:head>
 
-<nav class="flex justify-start items-center md:p-4">
-    <img class="h-8 md:h-12 w-auto" src="CLTmobile-02-Photoroom-removebg-preview.png" alt="Former Wrench Marketing logo">
-</nav>
 
 <!-- HERO SECTION - Above the fold -->
 <section class="flex flex-col w-full justify-center items-center space-y-8 px-4 py-8">
