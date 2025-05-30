@@ -129,11 +129,11 @@ const comparisonRows = [
   
   <!-- Desktop Navigation Links - Hidden on mobile -->
   <div class="hidden md:flex text-lg space-x-6">
-    <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/aboutus">About Us</a>
+    <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/about">About Us</a>
     <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/reviews">Reviews</a>
     <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/services">Services</a>
     <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/contact">Contact</a>
-    <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/permits">Training</a>
+    <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/training">Training</a>
   </div>
   
   <!-- Desktop Phone Number - Hidden on mobile -->
@@ -165,11 +165,11 @@ const comparisonRows = [
   <div class="fixed inset-x-0 z-40 bg-yellow500 md:hidden" style="top: 80px;">
     <div class="flex flex-col px-6 py-8 space-y-6">
       <!-- Mobile Navigation Links -->
-      <a href="/aboutus" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>About Us</a>
+      <a href="/about" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>About Us</a>
       <a href="/reviews" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>Reviews</a>
       <a href="/services" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>Services</a>
       <a href="/contact" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>Contact Us</a>
-      <a href="/permits" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>Training</a>
+      <a href="/training" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>Training</a>
 
       <!-- Mobile Phone Number -->
       <div class="flex items-center space-x-2 pt-6">
@@ -191,11 +191,7 @@ const comparisonRows = [
     </div>
   </div>
 {/if}
-<section class="flex w-full items-center relative bg-grayscale-100 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px]">
-  <!-- Background Image Container -->
-  <div class="absolute inset-0 w-full h-full overflow-hidden lg:h-[190]">
-    <img class="w-full h-full object-cover object-center" src="u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png" alt="Mobile mechanic working on vehicle">
-  </div>
+<section class="flex w-full items-center relative bg-grayscale-100 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px] bg-[url('u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png')]">
   
   <!-- Content Container -->
   <div class="relative z-20 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 py-8 sm:py-12 md:py-16 lg:py-20">
@@ -946,7 +942,7 @@ const comparisonRows = [
               <div class="flex flex-col space-y-4">
                 <h3 class="text-lg sm:text-xl font-bold mb-2">Our Services</h3>
                 <a href="/services/enforcement" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-base sm:text-lg">Advertising</a>
-                <a href="/services/permits" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-base sm:text-lg">Web Development</a>
+                <a href="/services/training" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-base sm:text-lg">Web Development</a>
                 <a href="/services/technology" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-base sm:text-lg">Customer Support</a>
                 <a href="/services/signage" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-base sm:text-lg">Lead nurturing</a>
               </div>
