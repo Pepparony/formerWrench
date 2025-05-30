@@ -189,23 +189,43 @@ const milestones = [
     </div>
   </div>
 {/if}
+  <section class="flex w-full items-center relative bg-grayscale-20 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px] bg-[url('u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png')]">
+    <!-- Background Image Container -->
+  <div class="absolute inset-0 w-full h-full overflow-hidden lg:h-[190]">
+    <img class="w-full h-full object-cover object-center" src="u9283747978_fill_with_just_yellow_--ar_21_--v_6.1_8465f34f-a30f-48a4-b5b8-9625b882fb26_0.png" alt="Mobile mechanic working on vehicle">
+  </div>
   
-    <!-- Hero Section -->
-    <section class="flex w-full justify-center items-center relative bg-grayscale-100 bg-no-repeat bg-cover">
-      <div class="relative top-0 w-full h-[300px] sm:h-[350px] md:h-[750px] overflow-hidden grayscale-50 contrast-80">
-        <img class="w-full h-full object-cover" src="https://cdn.midjourney.com/40da6f85-74d2-4665-b216-9ec274088dbd/0_1.png" alt="FormerWrench Team">
-      </div>
-      <div class="flex flex-col w-[90%] sm:w-[80%] md:w-[70%] justify-center items-center text-white font-sans z-20 absolute py-6 sm:py-12 md:py-20">
-        <h1 class="text-3xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide mb-2 leading-[1.1]">About <b class="text-yellow-500">FormerWrench</b></h1>
-        <svg class="w-[65%] sm:w-[60%] md:w-[55%] mb-2 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
-          <path d="M 10,12 Q 150,6 290,12" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+  <!-- Content Container -->
+  <div class="relative z-20 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 py-8 sm:py-12 md:py-16 lg:py-20">
+    <div class="max-w-4xl">
+      <!-- Small Header Text -->
+      <p class="text-sm sm:text-base md:text-lg font-medium uppercase mb-2 sm:mb-3 md:mb-4 text-black tracking-wide font-inter">
+        Web Development & Marketing for Mobile Mechanics
+      </p>
+      
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold tracking-wide mb-2">About FormerWrench</h1>
+
+      
+      <!-- Decorative SVG Underline -->
+      <svg class="w-3/4 sm:w-2/3 md:w-1/2 mb-3 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
+        <path d="M 10,12 Q 150,6 290,12" stroke="#000000" stroke-width="1.5" fill="none" />
+      </svg>
+      
+      <!-- Subheadline -->
+      <p class="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 md:mb-10 text-black leading-relaxed max-w-3xl font-inter">
+        Founded by a former mobile mechanic who built his own $8K+ monthly business, FormerWrench combines real-world industry experience with proven digital marketing strategies to help mobile mechanics across the country build the professional, profitable businesses they deserve.
+      </p>
+      
+      <!-- CTA Button -->
+      <a href="/contact" class="inline-flex items-center rounded-xl px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-3.5 md:py-4 bg-gray-500 hover:bg-gray-700 text-white font-bold text-base sm:text-lg md:text-xl transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5 font-inter">
+        <span class="mr-2">Schedule a Consultation</span>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z" fill="currentColor"/>
         </svg>
-        <p class="text-base sm:text-lg md:text-xl mb-3 sm:mb-4 md:mb-6 text-center max-w-3xl">
-          Transforming mobile mechanic businesses with proven web strategies
-        </p>
-      </div>
-    </section>
-  
+      </a>
+    </div>
+  </div>
+</section>
     <!-- Our Story Section -->
     <section class="w-full py-12 sm:py-16 md:py-20 bg-white">
       <div class="max-w-6xl mx-auto px-4 sm:px-6">

@@ -165,15 +165,15 @@
     <!-- Hero Section -->
     <section class="flex w-full justify-center items-center relative bg-grayscale-100 bg-no-repeat bg-cover">
       <div class="relative top-0 w-full h-[300px] sm:h-[350px] md:h-[400px] overflow-hidden grayscale-20 contrast-80">
-        <img class="w-full h-full object-cover" src="https://cdn.midjourney.com/afb99d63-f72a-4f21-8074-ed1cca116c1a/0_1.png" alt="LineGo Parking">
+        <img class="w-full h-full object-cover" src="u9283747978_fill_image_--ar_21_--v_6.1_a300e883-0190-4cdd-8095-68d6f15f28b1_3.png" alt="LineGo Parking">
       </div>
-      <div class="flex flex-col w-[90%] sm:w-[80%] md:w-[70%] justify-center items-center text-white font-sans z-20 absolute py-6 sm:py-12 md:py-20">
+      <div class="flex flex-col justify-center items-center text-white font-sans z-20 absolute py-6 sm:py-12 md:py-20">
         <h1 class="text-3xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide mb-2 leading-[1.1]">Partner With Us</h1>
         <svg class="w-[65%] sm:w-[60%] md:w-[55%] mb-2 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
           <path d="M 10,12 Q 150,6 290,12" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
         </svg>
         <p class="text-base sm:text-lg md:text-xl mb-3 sm:mb-4 md:mb-6 text-center max-w-3xl">
-          Join the growing number of properties in Charlotte that trust LineGo for fair, effective parking enforcement
+          Gain the advantages of having your web development services done by someone who was once in your shoes full time.
         </p>
       </div>
     </section>

@@ -191,7 +191,11 @@ const comparisonRows = [
     </div>
   </div>
 {/if}
-<section class="flex w-full items-center relative bg-grayscale-100 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px] bg-[url('u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png')]">
+<section class="flex w-full items-center relative bg-grayscale-20 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px] bg-[url('u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png')]">
+    <!-- Background Image Container -->
+  <div class="absolute inset-0 w-full h-full overflow-hidden lg:h-[190]">
+    <img class="w-full h-full object-cover object-center" src="u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png" alt="Mobile mechanic working on vehicle">
+  </div>
   
   <!-- Content Container -->
   <div class="relative z-20 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 py-8 sm:py-12 md:py-16 lg:py-20">
