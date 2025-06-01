@@ -349,7 +349,7 @@
               </svg>
               <div>
                 <h3 class="font-bold">Email</h3>
-                <p class="text-gray-700">jazier@linegoparking.com</p>
+                <p class="text-gray-700">info@formerwrench.com</p>
               </div>
             </div>
             
