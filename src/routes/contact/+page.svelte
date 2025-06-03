@@ -85,7 +85,7 @@
 </script>
   
   <head>
-    <title>Partner With Us | LineGo Parking</title>
+    <title>Partner With Us | FormerWrench Marketing</title>
   </head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <section id="contact-page">
@@ -180,11 +180,11 @@
   
     <!-- Why Partner With Us Section -->
     <section class="w-full flex flex-col py-12 sm:py-16 md:py-20 space-y-8 sm:space-y-10 md:space-y-12 justify-center items-center px-4 sm:px-6">
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center leading-[1.1]">Why Partner With <b class="text-yellow-500">LineGo?</b></h2>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center leading-[1.1]">Why Partner With <b class="text-yellow-500">FormerWrench?</b></h2>
       
       <p class="text-base sm:text-lg text-gray-700 text-center leading-[1.5] max-w-4xl">
-        We're dedicated to creating a fair parking environment that both property managers and residents appreciate. 
-        Our unique approach combines cutting-edge technology with resident-friendly policies.
+        We're dedicated to growing your mobile mechanic business that the owner, and customers benefit from. 
+        Our unique approach combines cutting-edge technology with amazing customer service.
       </p>
       
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
@@ -196,7 +196,7 @@
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-2">Increased Revenue</h3>
-          <p class="text-gray-700">Our fair pricing model and high compliance rates lead to substantial revenue increases for partner properties.</p>
+          <p class="text-gray-700">Our fair pricing model and market knowledge lead to substantial revenue increases for your business.</p>
         </div>
         
         <!-- Card 2 -->
@@ -206,8 +206,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h3 class="text-xl font-bold mb-2">Happier Residents</h3>
-          <p class="text-gray-700">Our resident-first approach means fewer complaints and higher satisfaction scores for your community.</p>
+          <h3 class="text-xl font-bold mb-2">Happier Customers</h3>
+          <p class="text-gray-700">Our customer-oriented approach means fewer complaints and higher satisfaction scores for your work.</p>
         </div>
         
         <!-- Card 3 -->
@@ -218,7 +218,7 @@
             </svg>
           </div>
           <h3 class="text-xl font-bold mb-2">Worry-Free Management</h3>
-          <p class="text-gray-700">We handle all aspects of enforcement, from signage to technology, so you can focus on property management.</p>
+          <p class="text-gray-700">We handle all aspects of marketing and web developement, from outreach to technology, so you can focus on reparing cars.</p>
         </div>
       </div>
     </section>
@@ -237,7 +237,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-bold mb-2">Free Consultation</h3>
-                <p class="text-gray-700">We'll assess your property's parking needs and develop a customized enforcement plan.</p>
+                <p class="text-gray-700">We'll assess your businesses needs and develop a customized plan.</p>
               </div>
             </div>
             
@@ -247,7 +247,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-bold mb-2">Implementation</h3>
-                <p class="text-gray-700">Our team will install signage, set up digital permit systems, and provide educational materials for residents.</p>
+                <p class="text-gray-700">We will set up all necessary digital systems, and provide educational materials for you.</p>
               </div>
             </div>
             
@@ -256,8 +256,8 @@
                 <span class="text-white font-bold">3</span>
               </div>
               <div>
-                <h3 class="text-xl font-bold mb-2">Enforcement</h3>
-                <p class="text-gray-700">Our professional enforcement agents will manage your parking using our fair, resident-focused approach.</p>
+                <h3 class="text-xl font-bold mb-2">Results</h3>
+                <p class="text-gray-700">Using our knowledge of the automotive repair industry, you will start seeing results quickly.</p>
               </div>
             </div>
           </div>
@@ -270,7 +270,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-bold mb-2">Customer Support</h3>
-                <p class="text-gray-700">24/7 support for both property managers and residents ensures quick resolution of any issues.</p>
+                <p class="text-gray-700">24/7 support for both business owners and customers ensures quick resolution of any issues.</p>
               </div>
             </div>
             
@@ -280,7 +280,7 @@
               </div>
               <div>
                 <h3 class="text-xl font-bold mb-2">Transparent Reporting</h3>
-                <p class="text-gray-700">Regular reports provide insights on enforcement activities, citation rates, and revenue generation.</p>
+                <p class="text-gray-700">Regular reports provide insights on your business activity, customer acquisition, and revenue generation.</p>
               </div>
             </div>
             
@@ -309,12 +309,12 @@
               </svg>
             {/each}
           </div>
-          <p class="text-xl md:text-2xl font-medium italic">"LineGo transformed our parking. Revenue is up, complaints are down, and our residents are actually happy with enforcement for the first time ever!"</p>
+          <p class="text-xl md:text-2xl font-medium italic">"FomerWrench transformed our mobile mechanic business. We have never had more customers and dealt with less complaints. Amazing company!"</p>
           <div class="flex items-center space-x-3">
             <img class="w-12 h-12 rounded-full object-cover" src="https://cdn.midjourney.com/9ff1c5d2-7e42-4fb1-aeb5-41ea6d78f1da/0_2.png" alt="Property Manager">
             <div>
               <p class="font-bold">Marcus Johnson</p>
-              <p class="text-gray-700">Property Manager, CityView Apartments</p>
+              <p class="text-gray-700">Mobile mechanic, Worthwell auto</p>
             </div>
           </div>
         </div>
@@ -329,7 +329,7 @@
         <div class="w-full md:w-1/3 space-y-8">
           <div>
             <h2 class="text-3xl sm:text-4xl font-bold mb-6">Get In <b class="text-yellow-500">Touch</b></h2>
-            <p class="text-gray-700 mb-8">Ready to transform your parking? Complete the form and we'll set up your free consultation.</p>
+            <p class="text-gray-700 mb-8">Ready to transform your business? Complete the form and we'll set up your free consultation.</p>
           </div>
           
           <div class="space-y-6">
