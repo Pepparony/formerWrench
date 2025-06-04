@@ -114,7 +114,7 @@ const comparisonRows = [
 </script>
 
 <head>
-  <title>Charlotte Complex Parking Enforcement | LineGo Parking</title>
+  <title>Mobile Mechanic Web Agency | FormerWrench Marketing</title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <section id="yeah">
@@ -197,7 +197,7 @@ const comparisonRows = [
   </div>
   <div class="flex flex-col w-[90%] sm:w-[80%] md:w-[70%] justify-center items-center text-white font-sans z-20 absolute py-6 sm:py-12 md:py-20 lg:py-35">
     <p class="text-base sm:text-lg uppercase mb-2 sm:mb-4 md:mb-6">Free Consultation</p>
-    <h1 class="text-3xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide mb-2 leading-[1.1]">A Web & Marketing Agency<br>For Mobile Mechanics</h1>
+    <h1 class="text-3xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide mb-2 leading-[1.1]">Web & Marketing Agency<br>For Mobile Mechanics</h1>
     <svg class="w-[65%] sm:w-[60%] md:w-[55%] mb-2 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
         <!-- The skinny subtle smile curve for an underline -->
         <path d="M 10,12 Q 150,6 290,12" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
