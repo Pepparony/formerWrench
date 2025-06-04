@@ -191,43 +191,25 @@ const comparisonRows = [
     </div>
   </div>
 {/if}
-<section class="flex w-full items-center relative bg-grayscale-20 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px] bg-[url('u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png')]">
-    <!-- Background Image Container -->
-  <div class="absolute inset-0 w-full h-full overflow-hidden lg:h-[190]">
-    <img class="w-full h-full object-cover object-center" src="u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png" alt="Mobile mechanic working on vehicle">
+<section class="flex w-screen justify-center items-center relative bg-grayscale-100 bg-no-repeat bg-cover">
+  <div class="relative top-0 w-full h-[425px] sm:h-[400px] md:h-[500px] lg:h-160 overflow-hidden grayscale-20 contrast-80">
+    <img class="w-full h-full object-cover" src="u9283747978_focus_more_on_parking_--ar_9151_--profile_bnb5gm7_986a4583-be5e-4d6c-b7cd-71c87266a29f_2.png" alt="">
   </div>
-  
-  <!-- Content Container -->
-  <div class="relative z-20 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 py-8 sm:py-12 md:py-16 lg:py-20">
-    <div class="max-w-4xl">
-      <!-- Small Header Text -->
-      <p class="text-sm sm:text-base md:text-lg font-medium uppercase mb-2 sm:mb-3 md:mb-4 text-black tracking-wide font-inter">
-        Web Development & Marketing for Mobile Mechanics
-      </p>
-      
-      <!-- Main Headline -->
-      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-tight mb-3 sm:mb-4 md:mb-6 text-black font-inter">
-        Marketing Agency Built by a Mobile Mechanic, for Mobile Mechanics
-      </h1>
-      
-      <!-- Decorative SVG Underline -->
-      <svg class="w-3/4 sm:w-2/3 md:w-1/2 mb-3 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
-        <path d="M 10,12 Q 150,6 290,12" stroke="#000000" stroke-width="1.5" fill="none" />
+  <div class="flex flex-col w-[90%] sm:w-[80%] md:w-[70%] justify-center items-center text-white font-sans z-20 absolute py-6 sm:py-12 md:py-20 lg:py-35">
+    <p class="text-base sm:text-lg uppercase mb-2 sm:mb-4 md:mb-6">Free Consultation</p>
+    <h1 class="text-3xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide mb-2 leading-[1.1]">A Web & Marketing Agency<br>For Mobile Mechanics</h1>
+    <svg class="w-[65%] sm:w-[60%] md:w-[55%] mb-2 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
+        <!-- The skinny subtle smile curve for an underline -->
+        <path d="M 10,12 Q 150,6 290,12" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
+    </svg>
+    <p class="text-base sm:text-lg md:text-xl mb-3 sm:mb-4 md:mb-6">Built by a mobile mechanic, for mobile mechanics</p>
+    <a href="/contact" class="mb-3 sm:mb-4 md:mb-5 rounded-xl w-fit px-6 sm:px-10 md:px-15 py-2 sm:py-2.5 md:py-3 bg-yellow-500 text-bold text-lg sm:text-xl md:text-2xl flex justify-center items-center transition-all duration-100 hover:opacity-90 text-white">
+      <p class="mr-2">Shedule Free Consultation</p>
+      <svg width="20" height="20" sm:width="22" sm:height="22" md:width="24" md:height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z" fill="currentColor"/>
       </svg>
-      
-      <!-- Subheadline -->
-      <p class="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 md:mb-10 text-black leading-relaxed max-w-3xl font-inter">
-        We build websites, booking systems, and marketing campaigns that actually understand your business - because we've been in your shoes
-      </p>
-      
-      <!-- CTA Button -->
-      <a href="/contact" class="inline-flex items-center rounded-xl px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-3.5 md:py-4 bg-yellow-500 hover:bg-yellow-600 text-white font-bold text-base sm:text-lg md:text-xl transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5 font-inter">
-        <span class="mr-2">Schedule a Consultation</span>
-        <svg class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z" fill="currentColor"/>
-        </svg>
-      </a>
-    </div>
+    </a>
+    <p class="text-base sm:text-lg md:text-xl">100% Money back guarantee</p>
   </div>
 </section>
 <section class="w-full flex flex-col py-12 sm:py-16 md:py-20 lg:py-24 space-y-6 sm:space-y-8 md:space-y-10 justify-center items-center px-4 sm:px-6">
