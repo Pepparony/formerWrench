@@ -143,7 +143,7 @@ const comparisonRows = [
       <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="currentColor" />
       <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="currentColor" />
     </svg>
-    <a href="/">Call Now</a>
+    <a href="tel:+1234567890">Call Now</a>
   </div>
   
   <!-- Mobile Menu Button - Only visible on mobile -->
@@ -178,7 +178,7 @@ const comparisonRows = [
           <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="white" />
           <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="white" />
         </svg>
-        <a href="/" class="text-white text-xl" on:click={handleNavClick}>Call Now</a>
+        <a href="tel:+1234567890" class="text-white text-xl" on:click={handleNavClick}>Call Now</a>
       </div>
       
       <!-- Mobile CTA Button -->
@@ -191,25 +191,37 @@ const comparisonRows = [
     </div>
   </div>
 {/if}
-<section class="flex w-screen justify-center items-center relative bg-grayscale-100 bg-no-repeat bg-cover">
-  <div class="relative top-0 w-full h-[425px] sm:h-[400px] md:h-[500px] lg:h-160 overflow-hidden grayscale-20 contrast-80">
-    <img class="w-full h-full object-cover" src="u9283747978_focus_more_on_parking_--ar_9151_--profile_bnb5gm7_986a4583-be5e-4d6c-b7cd-71c87266a29f_2.png" alt="">
+  <section class="flex w-full items-center relative bg-grayscale-20 bg-no-repeat bg-cover min-h-[400px] sm:min-h-[900px] lg:min-h-[800px] bg-[url('u9283747978_fill_with_nothing_on_left_side_--ar_9151_--v_6.1_e7f94cb1-1c24-4ae5-a7ff-9ba94570b7cc_1.png')]">
+    <!-- Background Image Container -->
+  <div class="absolute inset-0 w-full h-full overflow-hidden lg:h-[190]">
+    <img class="w-full h-full object-cover object-center" src="u9283747978_fill_with_just_yellow_--ar_21_--v_6.1_8465f34f-a30f-48a4-b5b8-9625b882fb26_0.png" alt="Mobile mechanic working on vehicle">
   </div>
-  <div class="flex flex-col w-[90%] sm:w-[80%] md:w-[70%] justify-center items-center text-white font-sans z-20 absolute py-6 sm:py-12 md:py-20 lg:py-35">
-    <p class="text-base sm:text-lg uppercase mb-2 sm:mb-4 md:mb-6">Free Consultation</p>
-    <h1 class="text-3xl md:text-5xl lg:text-6xl text-center font-bold tracking-wide mb-2 leading-[1.1]">Web & Marketing Agency<br>For Mobile Mechanics</h1>
-    <svg class="w-[65%] sm:w-[60%] md:w-[55%] mb-2 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
-        <!-- The skinny subtle smile curve for an underline -->
-        <path d="M 10,12 Q 150,6 290,12" stroke="#FFFFFF" stroke-width="1.5" fill="none" />
-    </svg>
-    <p class="text-base sm:text-lg md:text-xl mb-3 sm:mb-4 md:mb-6">Built by a mobile mechanic, for mobile mechanics</p>
-    <a href="/contact" class="mb-3 sm:mb-4 md:mb-5 rounded-xl w-fit px-6 sm:px-10 md:px-15 py-2 sm:py-2.5 md:py-3 bg-yellow-500 text-bold text-lg sm:text-xl md:text-2xl flex justify-center items-center transition-all duration-100 hover:opacity-90 text-white">
-      <p class="mr-2">Shedule Free Consultation</p>
-      <svg width="20" height="20" sm:width="22" sm:height="22" md:width="24" md:height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z" fill="currentColor"/>
+  
+  <!-- Content Container -->
+  <div class="relative z-20 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 py-8 sm:py-12 md:py-16 lg:py-20">
+    <div class="max-w-4xl">
+      
+        <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold tracking-wide mb-2">Web Development & Marketing Agency Built specifically For <b class="text-white">Mobile Mechanics</b></h1>
+
+      
+      <!-- Decorative SVG Underline -->
+      <svg class="w-3/4 sm:w-2/3 md:w-1/2 mb-3 sm:mb-4 md:mb-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 20">
+        <path d="M 10,12 Q 150,6 290,12" stroke="#000000" stroke-width="1.5" fill="none" />
       </svg>
-    </a>
-    <p class="text-base sm:text-lg md:text-xl">100% Money back guarantee</p>
+      
+      <!-- Subheadline -->
+      <p class="text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 md:mb-10 text-black leading-relaxed max-w-3xl font-inter">
+        Founded by a former mobile mechanic who built his own $8K+ monthly business, we combine real-world industry experience with proven digital marketing strategies to help mechanics across the country build the professional, profitable businesses they deserve.
+      </p>
+      
+      <!-- CTA Button -->
+      <a href="/contact" class="inline-flex items-center rounded-xl px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-3.5 md:py-4 bg-gray-500 hover:bg-gray-700 text-white font-bold text-base sm:text-lg md:text-xl transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5 font-inter">
+        <span class="mr-2">Schedule a Consultation</span>
+        <svg class="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z" fill="currentColor"/>
+        </svg>
+      </a>
+    </div>
   </div>
 </section>
 <section class="w-full flex flex-col py-12 sm:py-16 md:py-20 lg:py-24 space-y-6 sm:space-y-8 md:space-y-10 justify-center items-center px-4 sm:px-6">
@@ -966,7 +978,7 @@ const comparisonRows = [
             <!-- Bottom Section with Copyright -->
             <div class="w-full bg-black py-6">
               <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-white text-opacity-90 text-center md:text-left mb-4 md:mb-0 text-sm sm:text-base">© 2025 LineGo Parking. All rights reserved.</p>
+                <p class="text-white text-opacity-90 text-center md:text-left mb-4 md:mb-0 text-sm sm:text-base">© 2025 FomerWrench Marketing. All rights reserved.</p>
                 <div class="flex flex-wrap justify-center gap-4 sm:gap-6">
                   <a href="/privacy" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-sm sm:text-base">Privacy Policy</a>
                   <a href="/terms" class="text-white text-opacity-90 hover:text-opacity-100 transition-opacity text-sm sm:text-base">Terms of Service</a>
