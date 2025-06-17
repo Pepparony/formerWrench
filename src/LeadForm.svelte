@@ -92,7 +92,7 @@
         email: email.trim()
       });
 
-      if (response.status === 200) {
+      if (response.status === 200) { 
         submitSuccess = true;
         // Redirect to thank you page after a brief delay
         setTimeout(() => {
