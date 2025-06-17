@@ -119,11 +119,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <section id="reviews-page">
   
-<nav class="flex w-full justify-between md:justify-between py-6 items-center bg-[#edf2f4] px-4 md:px-8 lg:pr-16">
+ <div class="w-screen bg-yellow-400 text-white flex text-center justify-center items-center absolute p-2 top-0 fixed z-100">
+  <p class="text-lg tracking-wide">Our operations are now in Charlotte!</p>
+</div> 
+<nav class="flex w-full justify-between md:justify-between py-6 items-center bg-[#edf2f4] px-4 md:px-8 lg:px-16 mt-10">
   <!-- Logo Section -->
   <div class="px-4">
     <a href="/" class="w-fit h-fit">
-      <img class="w-28 scale-150 hover:scale-135 transition-all duration-200" src="CLTmobile-02-Photoroom-removebg-preview.png" alt="Logo">
+      <img class="w-28 scale-150 hover:scale-135 transition-all duration-200" src="CLTmobile-02.png" alt="Logo">
     </a>
   </div>
   
@@ -133,7 +136,7 @@
     <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/reviews">Reviews</a>
     <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/services">Services</a>
     <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/contact">Contact</a>
-    <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/training">Training</a>
+    <a class="transition-all duration-200 underline-offset-8 hover:underline text-lg" href="/training">training</a>
   </div>
   
   <!-- Desktop Phone Number - Hidden on mobile -->
@@ -143,7 +146,7 @@
       <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="currentColor" />
       <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="currentColor" />
     </svg>
-    <a href="/">Call Now</a>
+    <a href="/">704-309-6194</a>
   </div>
   
   <!-- Mobile Menu Button - Only visible on mobile -->
@@ -162,7 +165,7 @@
 
 <!-- Mobile Menu Dropdown - Fixed position, slides down when active -->
 {#if isOpen}
-  <div class="fixed inset-x-0 z-40 bg-yellow500 md:hidden" style="top: 80px;">
+  <div class="fixed inset-x-0 z-40 bg-[#55a630] md:hidden" style="top: 80px;">
     <div class="flex flex-col px-6 py-8 space-y-6">
       <!-- Mobile Navigation Links -->
       <a href="/about" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>About Us</a>
@@ -178,12 +181,12 @@
           <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="white" />
           <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="white" />
         </svg>
-        <a href="/" class="text-white text-xl" on:click={handleNavClick}>Call Now</a>
+        <a href="/" class="text-white text-xl" on:click={handleNavClick}>704-309-6194</a>
       </div>
       
       <!-- Mobile CTA Button -->
       <a href="/contact" class="mt-6 rounded-xl w-fit px-8 py-3 bg-white text-[#55a630] text-bold text-xl flex justify-center items-center transition-all duration-100 hover:bg-gray-100" on:click={handleNavClick}>
-        <p class="mr-2">Book A Call Today</p>
+        <p class="mr-2">Partner With Us</p>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z" fill="currentColor" />
         </svg>
@@ -191,7 +194,6 @@
     </div>
   </div>
 {/if}
-  
     <!-- SECTION 1: Hero Section -->
     <section class="flex w-full justify-center items-center relative bg-grayscale-100 bg-no-repeat bg-cover">
       <div class="relative top-0 w-full h-[300px] sm:h-[350px] md:h-[400px] overflow-hidden grayscale-20 contrast-80">
