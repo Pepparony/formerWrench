@@ -164,7 +164,7 @@ const comparisonRows = [
 
 <!-- Mobile Menu Dropdown - Fixed position, slides down when active -->
 {#if isOpen}
-  <div class="fixed inset-x-0 z-40 bg-[#55a630] md:hidden" style="top: 80px;">
+  <div class="fixed inset-x-0 z-40 bg-yellow-500 md:hidden" style="top: 80px;">
     <div class="flex flex-col px-6 py-8 space-y-6">
       <!-- Mobile Navigation Links -->
       <a href="/about" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>About Us</a>
@@ -239,7 +239,7 @@ const comparisonRows = [
     <div class="bg-gray-200 rounded-2xl px-6 sm:px-8 md:px-10 py-8 sm:py-10 md:py-12 space-y-4 w-full md:w-1/3">
       <img class="rounded-2xl scale-80 mx-auto" src="https://cdn.midjourney.com/171bfb1c-eb5b-4823-a572-2362171ae3cd/0_3.png" alt="">
       <h2 class="text-xl sm:text-2xl font-bold text-center">Smoother Expierence creates <br>Happy Customers</h2>
-      <p class="text-base sm:text-lg text-gray-700">Professional websites, automated booking confirmations, and seamless payment processing make you look like the established professional you are - not just another guy with tools in his truck.</p>
+      <p class="text-base sm:text-lg text-gray-700">Professional websites, automated booking confirmations, and seamless payment processing make you look like the established professional you are - not just another guy with tools in his truck. We understand what your reputation means.</p>
     </div>
   </div>
   
@@ -718,7 +718,7 @@ const comparisonRows = [
         </div>
       </div>
       <h1 class="font-bold text-gray-800 text-lg sm:text-xl">Helped Increase My Revenue!</h1>
-      <p class="text-gray-700 text-base sm:text-lg md:text-xl">"Helped increase my revenue quickly, giving me more quality customers and less headache"</p>
+      <p class="text-gray-700 text-base sm:text-lg md:text-xl">"Helped increase my revenue quickly, giving me more quality customers and less headache from customers"</p>
     </div>
     
     <!-- Review Card 3 -->
@@ -797,7 +797,7 @@ const comparisonRows = [
                 <details class="group">
                   <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
                     <h3 class="text-xl font-bold text-gray-800">How quickly will I start seeing more customers?</h3>
-                    <span class="text-[#55a630] transition group-open:rotate-180">
+                    <span class="text-yellow-500 transition group-open:rotate-180">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                       </svg>
@@ -814,7 +814,7 @@ const comparisonRows = [
                 <details class="group">
                   <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
                     <h3 class="text-xl font-bold text-gray-800">How is FormerWrench different from other marketing agencies?</h3>
-                    <span class="text-[#55a630] transition group-open:rotate-180">
+                    <span class="text-yellow-500 transition group-open:rotate-180">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                       </svg>
@@ -831,7 +831,7 @@ const comparisonRows = [
                 <details class="group">
                   <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
                     <h3 class="text-xl font-bold text-gray-800">How is FormerWrench different from other marketing agencies?</h3>
-                    <span class="text-[#55a630] transition group-open:rotate-180">
+                    <span class="text-yellow-500 transition group-open:rotate-180">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                       </svg>
@@ -848,7 +848,7 @@ const comparisonRows = [
                 <details class="group">
                   <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
                     <h3 class="text-xl font-bold text-gray-800">What is your pricing?</h3>
-                    <span class="text-[#55a630] transition group-open:rotate-180">
+                    <span class="text-yellow-500 transition group-open:rotate-180">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                       </svg>
@@ -865,7 +865,7 @@ const comparisonRows = [
                 <details class="group">
                   <summary class="flex justify-between items-center p-6 cursor-pointer list-none">
                     <h3 class="text-xl font-bold text-gray-800"> Do you guarantee results, and what if it doesn't work?</h3>
-                    <span class="text-[#55a630] transition group-open:rotate-180">
+                    <span class="text-yellow-500 transition group-open:rotate-180">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                       </svg>

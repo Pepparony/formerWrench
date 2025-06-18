@@ -165,7 +165,7 @@
 
 <!-- Mobile Menu Dropdown - Fixed position, slides down when active -->
 {#if isOpen}
-  <div class="fixed inset-x-0 z-40 bg-[#55a630] md:hidden" style="top: 80px;">
+  <div class="fixed inset-x-0 z-40 bg-yellow-500 md:hidden" style="top: 80px;">
     <div class="flex flex-col px-6 py-8 space-y-6">
       <!-- Mobile Navigation Links -->
       <a href="/about" class="text-white text-xl font-semibold hover:text-gray-200 transition-colors duration-200" on:click={handleNavClick}>About Us</a>
