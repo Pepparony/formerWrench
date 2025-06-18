@@ -119,7 +119,7 @@ const milestones = [
     <div class="w-screen bg-yellow-400 text-white md:flex text-center justify-center items-center p-2 top-0 hidden md:fixed z-100">
   <p class="text-lg tracking-wide">Our operations are now in Charlotte!</p>
 </div>
-<nav class="flex w-full justify-between md:justify-between py-6 items-center bg-[#edf2f4] px-4 md:px-8 lg:px-16 mt-10">
+<nav class="flex w-full justify-between md:justify-between py-6 items-center bg-[#edf2f4] px-4 md:px-8 lg:px-16 md:mt-10">
   <!-- Logo Section -->
   <div class="px-4">
     <a href="/" class="w-fit h-fit">
