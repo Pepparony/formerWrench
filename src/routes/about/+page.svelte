@@ -34,9 +34,9 @@
       image: "IMG_0362.jpeg"
     },
     {
-      name: "Holden Gerlach",
+      name: "Renald Dwight",
       title: "CEO & Founder",
-      bio: "Former mobile mechanic, dedicated to making the industy benefitial to everyone, Holden started FormerWrench with one simple vision in mind; changing the game.",
+      bio: "Former mobile mechanic, dedicated to making the industy benefitial to everyone, Renald started FormerWrench with one simple vision in mind; changing the game.",
       image: "IMG_0215.jpeg"
     }
   ];
@@ -143,7 +143,7 @@ const milestones = [
       <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="currentColor" />
       <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="currentColor" />
     </svg>
-    <a href="/">704-309-6194</a>
+    <a href="/">704-444-4444</a>
   </div>
   
   <!-- Mobile Menu Button - Only visible on mobile -->
@@ -178,7 +178,7 @@ const milestones = [
           <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="white" />
           <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="white" />
         </svg>
-        <a href="/" class="text-white text-xl" on:click={handleNavClick}>704-309-6194</a>
+        <a href="/" class="text-white text-xl" on:click={handleNavClick}>704-444-4444</a>
       </div>
       
       <!-- Mobile CTA Button -->
@@ -504,7 +504,7 @@ const milestones = [
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
         </svg>
-        Call Us: (704) 309-6194
+        Call Us: (704) 444-4444
       </a>
     </div>
   </div>
@@ -568,7 +568,7 @@ const milestones = [
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  <span class="text-white text-opacity-90 text-base sm:text-lg">(704) 309-6194</span>
+                  <span class="text-white text-opacity-90 text-base sm:text-lg">(704) 444-4444</span>
                 </p>
                 <p class="flex items-start">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -166,7 +166,7 @@
           fill="currentColor"
         />
       </svg>
-      <a href="/">704-309-6194</a>
+      <a href="/">704-444-4444</a>
     </div>
 
     <!-- Mobile Menu Button - Only visible on mobile -->
@@ -263,7 +263,7 @@
             />
           </svg>
           <a href="/" class="text-white text-xl" on:click={handleNavClick}
-            >704-309-6194</a
+            >704-444-4444</a
           >
         </div>
 
@@ -648,7 +648,7 @@
               </svg>
               <div>
                 <h3 class="font-bold">Phone</h3>
-                <p class="text-gray-700">(704) 309-6194</p>
+                <p class="text-gray-700">(704) 444-4444</p>
               </div>
             </div>
 
@@ -1036,7 +1036,7 @@
             />
           </svg>
           <span class="text-white text-opacity-90 text-base sm:text-lg"
-            >(704) 309-6194</span
+            >(704) 444-4444</span
           >
         </p>
         <p class="flex items-start">
