@@ -80,7 +80,7 @@ const milestones = [
   {
     year: "2022",
     title: "Mobile Mechanic Success",
-    description: "Holden Gerlach built and operated a successful mobile mechanic business, developing the strategies that would become FormerWrench's foundation.",
+    description: "Renald Dwight built and operated a successful mobile mechanic business, developing the strategies that would become FormerWrench's foundation.",
     image: "https://cdn.midjourney.com/c6e3bd56-a152-4183-9bcb-b387c4131add/0_2.png"
   },
   {
@@ -231,10 +231,10 @@ const milestones = [
           <div class="w-full md:w-1/2 space-y-6">
             <h2 class="text-3xl md:text-4xl font-bold">Our Story</h2>
             <p class="text-lg text-gray-700">
-   FormerWrench was founded in 2024 by Holden Gerlach after experiencing firsthand the challenges of running a mobile mechanic business. He witnessed how talented mechanics struggled with inconsistent income, poor online presence, and competing against platforms that took 30-40% of every job.
+   FormerWrench was founded in 2024 by Renald Dwight after experiencing firsthand the challenges of running a mobile mechanic business. He witnessed how talented mechanics struggled with inconsistent income, poor online presence, and competing against platforms that took 30-40% of every job.
 </p>
 <p class="text-lg text-gray-700">
-  Starting with his own mobile mechanic business, Holden developed a systematic approach that focused on professional online presence, automated booking systems, and targeted customer acquisition. The results were immediate: consistent $6K-8K monthly revenue, professional credibility, and customers calling him instead of the other way around.
+  Starting with his own mobile mechanic business, Renald developed a systematic approach that focused on professional online presence, automated booking systems, and targeted customer acquisition. The results were immediate: consistent $6K-8K monthly revenue, professional credibility, and customers calling him instead of the other way around.
 </p>
 <p class="text-lg text-gray-700">
   Today, FormerWrench helps mobile mechanics throughout the country, but our mission remains the same: to transform mobile mechanic businesses from feast-or-famine income into thriving, professional operations that mechanics can be proud of.

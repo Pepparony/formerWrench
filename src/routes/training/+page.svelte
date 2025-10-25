@@ -141,7 +141,7 @@
     <div class="max-w-6xl mx-auto px-4">
         <div class="md:flex items-center space-y-8 md:space-y-0 md:space-x-12">
             <div class="md:w-1/2">
-                <img class="rounded-xl shadow-lg w-full" src="https://cdn.midjourney.com/329b59e0-5676-4a77-9fc0-22ab0c0ca85c/0_2.png" alt="Holden - Former Mobile Mechanic">
+                <img class="rounded-xl shadow-lg w-full" src="https://cdn.midjourney.com/329b59e0-5676-4a77-9fc0-22ab0c0ca85c/0_2.png" alt="Renald - Former Mobile Mechanic">
             </div>
             <div class="md:w-1/2">
                 <h2 class="text-3xl font-bold mb-4">From Feast-or-Famine to Fully Booked</h2>
@@ -156,7 +156,7 @@
                 </p>
                 <div class="bg-white p-4 rounded-lg border-l-4 border-yellow-500">
                     <p class="font-semibold text-gray-800">"I know exactly what it's like to be in your shoes - and I know exactly how to get you out."</p>
-                    <p class="text-gray-600 mt-2">- Holden, Former Mobile Mechanic</p>
+                    <p class="text-gray-600 mt-2">- Renald, Former Mobile Mechanic</p>
                 </div>
             </div>
         </div>
